@@ -1,0 +1,97 @@
+.firstDivForm{   
+    width: 45%; 
+    margin: 0 auto; 
+    border: #ddd solid 1px;  
+    border-radius: 8px; 
+    margin-top: 8px;
+    margin-bottom: 82px; 
+    box-shadow: #adadad 0.0em 0.0em 0.1em 0.0em;
+}
+ 
+#inputCaption{ 
+    font-size: 28px;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 35px;  
+}
+#pic{
+    padding-left: 12px;
+    border-radius: 4px;
+}
+#pic:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+#fileInput{
+    display: none; 
+}
+.firstDivForm input, textarea, select, button{
+    border-radius: 4px; 
+    border: solid 1px; 
+    border-color: #ddd;
+    height: 45px;
+    width: 94%;
+    margin: 9px; 
+    font-size: 16px;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input, textarea, select{
+    text-indent: 12px; 
+}
+::placeholder {
+    color: #928f8f; 
+  }
+ 
+
+.buttomFormLinkDiv{
+    width: 94%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;   
+}
+button{
+    color: #f1f1f1;
+}
+.firstDivForm textarea{ 
+    height: 85px;
+    resize: none;
+}
+.firstDivForm select{ 
+    width: 94.9%; 
+    font-size: 16px;
+    color: #868686;
+} 
+span{
+   color: #868686;
+   /* padding-left: 7px;    */
+}
+
+input:focus, textarea:focus{
+    background-color: #f1f1f1;
+    color: #525151;
+}
+  
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .firstDivForm{
+        width: 95%;
+    }
+    .firstDivForm input{
+        width: 95%; 
+        text-align: center;
+           }
+   
+.firstDivForm select, button, #btnPetition, #btnLogin, #btnSignUp, #btnExressInterest{ 
+    width: 95.9%; 
+} 
+.firstDivForm textarea{
+    width: 94.8%; 
+}
+}
