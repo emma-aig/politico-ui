@@ -1,3 +1,66 @@
+<<<<<<< HEAD
+#dataSection{
+    padding: 8px;
+    width: 60%;
+    margin: auto;
+}
+
+#dataCaption{
+    margin-top: 40px;
+    margin-bottom: 18px;
+    padding-left: 15px;
+    font-size: 23px;
+}
+.dataDiv{
+    padding-bottom: 13px;
+    margin-bottom: 5px;
+    border-bottom: #ddd 1px solid; 
+} 
+.dataDiv span{ 
+padding: 19px 1px 1px 12px; 
+}
+
+.dataDiv span img{ 
+    width: 80px;
+    }
+    
+    .conditionalDiv{
+        padding: 13px;
+    }
+    
+       .spanVote a{ 
+float: right;
+margin-top: 62px;
+        color: #458ddf; 
+        font-weight: bold;
+        font-size: 22px;
+        text-shadow: #ddd 0.0em 0.1em 0.1em; 
+    } 
+
+@media only screen and (max-width: 800px) { 
+    #dataSection{ 
+        width: 95%; 
+    }
+    
+.dataDiv span{
+display: block;
+}
+.dataDiv{
+    margin-bottom: 13px; 
+padding-bottom: 1px;
+border-radius: 8px;
+}
+
+.dataDiv span img{ 
+    width: 120px;
+    }
+    .spanVote a{ 
+        float: none;
+         margin-top: 0px;
+         display: block; 
+            }
+}
+=======
 #dataSection{
     padding: 8px;
     width: 60%;
@@ -45,3 +108,4 @@ border-radius: 8px;
     width: 120px;
     }
 }
+>>>>>>> b231b4ceea937b698008920057cf6511c8631034
